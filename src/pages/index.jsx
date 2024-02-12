@@ -5,7 +5,13 @@ const Index = () => {
 		<Box>
 			{/* by passing props to the title of component we have made it polymorphic */}
 
-			<Title order={3} component="p">Hello from the title</Title>
+			<Title
+				order={3}
+				component="p"
+				align="center"
+			>
+				Hello from the title
+			</Title>
 		</Box>
 	);
 };
