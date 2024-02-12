@@ -28,6 +28,11 @@ const Index = () => {
 						background: theme.colors.teal[4],
 					},
 				})}
+				ta={{
+					base: "center",
+					sm: "left",
+					md: "right",
+				}}
 			>
 				Hello from the title
 			</Title>
